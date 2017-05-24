@@ -207,6 +207,20 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\0.1.Helper\0.1.Helper.csproj">
+      <Project>{f4bf563f-d7bc-4fdb-9bca-fef3f1367560}</Project>
+      <Name>0.1.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1.1.DataTransferObject\1.1.DataTransferObject.csproj">
+      <Project>{56101844-7788-4d04-9423-442fa7c871f9}</Project>
+      <Name>1.1.DataTransferObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\3.1.Business\3.1.Business.csproj">
+      <Project>{f4ea99e6-70e4-40f2-8433-c0710cb4952d}</Project>
+      <Name>3.1.Business</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

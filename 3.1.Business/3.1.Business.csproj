@@ -106,12 +106,33 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts\ai.0.15.0-build58334.js" />
-    <Content Include="scripts\ai.0.15.0-build58334.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\0.1.Helper\0.1.Helper.csproj">
+      <Project>{f4bf563f-d7bc-4fdb-9bca-fef3f1367560}</Project>
+      <Name>0.1.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\1.1.DataTransferObject\1.1.DataTransferObject.csproj">
+      <Project>{56101844-7788-4d04-9423-442fa7c871f9}</Project>
+      <Name>1.1.DataTransferObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\4.1.DataAccessRepository\4.1.DataAccessRepository.csproj">
+      <Project>{040665cc-8c6e-48ba-a5cc-ace82c1b2364}</Project>
+      <Name>4.1.DataAccessRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\5.1.DataAccess\5.1.DataAccess.csproj">
+      <Project>{84ad49dd-add4-42e4-b239-9e8611ba0591}</Project>
+      <Name>5.1.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business\" />
+    <Folder Include="Generic\" />
+    <Folder Include="Validation\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
