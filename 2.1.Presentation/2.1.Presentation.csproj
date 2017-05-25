@@ -252,15 +252,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\0.1.Helper\0.1.Helper.csproj">
-      <Project>{f4bf563f-d7bc-4fdb-9bca-fef3f1367560}</Project>
+      <Project>{9067be38-0de3-4b3a-bcb1-f40e8a583d86}</Project>
       <Name>0.1.Helper</Name>
     </ProjectReference>
     <ProjectReference Include="..\1.1.DataTransferObject\1.1.DataTransferObject.csproj">
-      <Project>{56101844-7788-4d04-9423-442fa7c871f9}</Project>
+      <Project>{96d6057b-3a14-4d40-8c04-01a56bd462be}</Project>
       <Name>1.1.DataTransferObject</Name>
     </ProjectReference>
     <ProjectReference Include="..\3.1.Business\3.1.Business.csproj">
-      <Project>{f4ea99e6-70e4-40f2-8433-c0710cb4952d}</Project>
+      <Project>{d55cc9c0-1cd1-4518-8b00-fa2c19656592}</Project>
       <Name>3.1.Business</Name>
     </ProjectReference>
   </ItemGroup>
