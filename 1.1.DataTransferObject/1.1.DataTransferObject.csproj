@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56101844-7788-4D04-9423-442FA7C871F9}</ProjectGuid>
+    <ProjectGuid>{96D6057B-3A14-4D40-8C04-01A56BD462BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_1._1.DataTransferObject</RootNamespace>
@@ -40,12 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Generic\DtoGeneric.cs" />
+    <Compile Include="Object\DtoArchivo.cs" />
+    <Compile Include="Object\DtoComentario.cs" />
+    <Compile Include="Object\DtoContacto.cs" />
+    <Compile Include="Object\DtoPublicacion.cs" />
+    <Compile Include="Object\DtoRespuestaContacto.cs" />
+    <Compile Include="Object\DtoUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Generic\" />
-    <Folder Include="Object\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
