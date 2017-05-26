@@ -43,7 +43,7 @@ header#header {
         float: left;
         margin: 0;
         font-size: 22px;
-        display: block;
+       display: block;
         width: 18%;
         height: 55px;
         font-weight: normal;
@@ -388,7 +388,7 @@ aside#sidebar {
 section#main {
     width: 77%;
     min-height: 500px;
-    background: url(../images/sidebar_shadow.png) repeat-y left top;
+    background: url(../images/Logo.png) center no-repeat ;
     float: left;
     margin-top: -2px;
 }
