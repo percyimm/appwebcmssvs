@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{96D6057B-3A14-4D40-8C04-01A56BD462BE}</ProjectGuid>
+    <ProjectGuid>{56101844-7788-4D04-9423-442FA7C871F9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_1._1.DataTransferObject</RootNamespace>
