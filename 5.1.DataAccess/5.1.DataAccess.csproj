@@ -57,12 +57,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Archivo.cs" />
+    <Compile Include="Entity\Comentario.cs" />
+    <Compile Include="Entity\Contacto.cs" />
+    <Compile Include="Entity\Publicacion.cs" />
+    <Compile Include="Entity\RespuestaContacto.cs" />
+    <Compile Include="Entity\Usuario.cs" />
+    <Compile Include="Generic\EntityGeneric.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
-    <Folder Include="Entity\" />
-    <Folder Include="Generic\" />
     <Folder Include="Query\" />
   </ItemGroup>
   <ItemGroup>
